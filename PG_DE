@@ -1,0 +1,6 @@
+[southeast:vars]
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+[southeast]
+Yathi ansible_host=172.31.68.165 ansible_ssh_user=mailyathishgmai ansible_ssh_pass='shgmai0A@zgtar' ansible_connection=ssh ansible_port=42006
+[window]
+Azure ansible_host=20.55.9.109 ansible_user=ajay.devopstraiers1 ansible_password='Hnd3YCTlQBvwHdUEcUEwxER12II1P30=' ansible_connection=winrm ansible_port=5985 ansible_winrm_server_cert_validation=ignore
